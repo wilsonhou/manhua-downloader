@@ -1,0 +1,33 @@
+{
+  "name": "manhua-downloader",
+  "version": "1.0.0",
+  "description": "A server to convert images to PDF and download them.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon -q dist/index.js",
+    "compile": "npx tsc --watch",
+    "merge": "node dist/merge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jspdf": "^2.5.1",
+    "node-fetch": "^3.3.2",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "type": "module"
+}
