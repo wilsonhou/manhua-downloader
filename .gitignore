@@ -1,3 +1,5 @@
 dist/*
 
 mp/*
+
+.DS_Store
